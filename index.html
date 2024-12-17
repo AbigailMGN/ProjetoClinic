@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Estética - App</title>
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <title>Clínica Estética - App de Gestão</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header class="header">
         <div class="container">
-            <div class="logo">Clínica Estética</div>
+            <img src="Logo.png" width="5%" height="50%">
+            <h2 class="logo">Clínica Estética</h2>
             <nav class="navbar">
                 <a href="#home">Home</a>
-                <a href="#about">Sobre Nós</a>
                 <a href="#services">Serviços</a>
-                <a href="#contact">Contato</a>
+                <a href="#Explore">Explore</a>
                 <a href="#download" class="btn">Baixar o App</a>
             </nav>
         </div>
@@ -25,8 +26,8 @@
     <section class="hero" id="home">
         <div class="container hero-content">
             <div class="text">
-                <h1>Sua Beleza em Boas Mãos!</h1>
-                <p>Agende consultas, descubra tratamentos e cuide da sua pele com o nosso app.</p>
+                <h1>Gestão Simplificada para sua Clínica Estética!</h1>
+                <p>Organize agendamentos, gerencie estoques e acompanhe relatórios em um único lugar.</p>
                 <div class="buttons">
                     <a href="#" class="btn">Baixe para Android</a>
                     <a href="#" class="btn">Baixe para iOS</a>
@@ -34,7 +35,7 @@
             </div>
             <div class="mockup">
                 <div class="phone-frame">
-                    <img src="app-screenshot.jpg" alt="App Mockup" class="app-screenshot">
+                    <img src="tela-inicial.png" alt="App Mockup" class="app-screenshot">
                 </div>
             </div>
         </div>
@@ -47,51 +48,56 @@
             <div class="benefits-grid">
                 <div class="benefit">
                     <i class="icon">📅</i>
-                    <h3>Fácil Agendamento</h3>
-                    <p>Marque consultas com apenas alguns cliques.</p>
+                    <h3>Gestão de Agendamentos</h3>
+                    <p>Controle e organize horários de forma fácil e eficiente.</p>
                 </div>
                 <div class="benefit">
                     <i class="icon">✨</i>
-                    <h3>Tratamentos Personalizados</h3>
-                    <p>Encontre os melhores serviços para sua necessidade.</p>
+                    <h3>Controle de Estoque</h3>
+                    <p>Gerencie seus produtos e materiais em tempo real.</p>
+                </div>
+                <div class="benefit">
+                    <i class="icon"></i>
+                    <h3>Relatórios Detalhados</h3>
+                    <p>Obtenha percepções sobre o desempenho da clínica.</p>
                 </div>
                 <div class="benefit">
                     <i class="icon">💰</i>
-                    <h3>Ofertas Exclusivas</h3>
-                    <p>Aproveite promoções exclusivas do app.</p>
+                    <h3>Gestão Financeira</h3>
+                    <p>Acompanhe receitas, despesas e mantenha suas finanças organizadas.</p>
+                </div>
+                <div class="benefit">
+                    <i class="icon">📋</i>
+                    <h3>Histórico de Pacientes</h3>
+                    <p>Tenha acesso ao histórico completo de cada paciente com facilidade.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Seção de Depoimentos -->
-    <section class="testimonials" id="testimonials">
+    <section class="app-screenshots2" id="Explore">
         <div class="container">
-            <h2>O que nossos clientes dizem</h2>
-            <div class="testimonial">
-                <p>"O app é incrível, facilitou muito minha vida para agendar tratamentos!"</p>
-                <span>- Ana Clara</span>
-            </div>
-            <div class="testimonial">
-                <p>"Adorei as promoções e a interface fácil de usar!"</p>
-                <span>- João Pedro</span>
+            <h2>Explore o App</h2>
+            <p>Descubra como nossas ferramentas podem transformar a gestão da sua clínica.</p>
+            <div class="screenshots-grid">
+                <div class="screenshot">
+                    <img src="tela-do-app.png" alt="Tela de Histórico de Pacientes">
+                    <p>Menu</p>
+                </div>
+                <div class="screenshot">
+                    <img src="tela-agendamento.png" alt="Tela de Agendamentos">
+                    <p>Gestão de Agendamentos</p>
+                </div>
+                <div class="screenshot">
+                    <img src="tela-estoque.png" alt="Tela de Controle de Estoque">
+                    <p>Controle de Estoque</p>
+                </div>
+                <div class="screenshot">
+                    <img src="tela-financeiro.png" alt="Tela Financeira">
+                    <p>Gestão Financeira</p>
+                </div>
+                
             </div>
         </div>
     </section>
-
-    <!-- Rodapé -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-links">
-                <a href="#">Política de Privacidade</a>
-                <a href="#">Termos de Uso</a>
-                <a href="#">FAQ</a>
-            </div>
-            <div class="newsletter">
-                <input type="email" placeholder="Seu e-mail">
-                <button>Inscreva-se</button>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
