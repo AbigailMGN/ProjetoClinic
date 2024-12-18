@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* Reset */
 * {
     margin: 0;
@@ -30,12 +31,26 @@ body {
 
 .logo {
     font-size: 1.5rem;
-    font-weight: bold;
-    left: -50rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
     color: #333;
+    white-space: nowrap;
+    overflow: visible;
+    border-left: -1rem;
 }
-
-
+.Logo{
+    padding: 10px;
+    text-align: center;
+}
+.Logo img{
+    float: left;
+    margin-right: 20px;
+    height: auto;
+    border-top: -2rem;
+    border-color: #f58ea8;
+    border: 2rem;
+}
 .navbar a {
     margin: 0 10px;
     text-decoration: none;
@@ -158,7 +173,7 @@ body {
 }
 
 .app-screenshots2 {
-    padding: 50px 20px;
+    padding: 20px 5px;
     background: #f9f9f9;
     text-align: center;
 }
@@ -183,18 +198,18 @@ body {
 }
 
 .screenshot {
-    background: #fff;
-    
+    background: #fffefe;
     border-radius: 50px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 .screenshot img {
-    max-width: 70%;
-    
+    width: 100%;
+    height: auto;
+    max-width: 280px;
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
     border-radius: 40px;
